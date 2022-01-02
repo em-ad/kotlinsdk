@@ -1,0 +1,7 @@
+# CreateFileRequest
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**name** | [**kotlin.String**](.md) |  |  [optional]
+**parentId** | [**kotlin.String**](.md) |  |  [optional]
