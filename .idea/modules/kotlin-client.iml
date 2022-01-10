@@ -8,7 +8,6 @@
         </compilerSettings>
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/main" />
-          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-scalars/2.9.0/e9ee6f35fb7ba877a35519f9a8f55c648df820d4/converter-scalars-2.9.0.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.9.0/fc93484fc67ab52b1e0ccbdaa3922d8a6678e097/converter-gson-2.9.0.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.9.0/d8fdfbd5da952141a665a403348b74538efc05ff/retrofit-2.9.0.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.9.0/8e17601d3bdc8cf57902c154de021931d2c27c1/okhttp-4.9.0.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/io.gsonfire/gson-fire/1.8.0/7efae3948892dd1f3ad1f8135c3120a00c5312a9/gson-fire-1.8.0.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/org.threeten/threetenbp/1.3.5/61975ba9d4f65368344f92d6bbae4c777bc5bc2e/threetenbp-1.3.5.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/org.apache.oltu.oauth2/org.apache.oltu.oauth2.client/1.0.2/b34e09d1cb84c4b63cedb65c5346ac44eecc22c5/org.apache.oltu.oauth2.client-1.0.2.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.10.6/26ef5b746eba68dffc7040c86e80b434e20e9b12/joda-time-2.10.6.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/javax.annotation/jsr250-api/1.0/5025422767732a1ab45d93abfea846513d742dcf/jsr250-api-1.0.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.4.30/aeecfab2e6acbcb80fc6628e8882c98cbbd819cf/kotlin-stdlib-jdk8-1.4.30.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi-kotlin/1.11.0/d8f796170ae085954c9185351a831e276a3d44/moshi-kotlin-1.11.0.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.4.30/a9116fbe28a0514671787df95133f28e65fdac25/kotlin-reflect-1.4.30.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi-adapters/1.11.0/eedae4dc0fe61e4228edc6b19d622b00d6850e3d/moshi-adapters-1.11.0.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.11.0/14c426fc49ee29eb871e8b259326e967082a72ad/moshi-1.11.0.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/2.8.0/49b64e09d81c0cc84b267edd0c2fd7df5a64c78c/okio-jvm-2.8.0.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.4.30/cd81ed90fd79e43f587bd384c2bc6d1aed0bfe31/kotlin-stdlib-jdk7-1.4.30.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.30/d10d1e10f47006ee08162dde039e38ac487de4ac/kotlin-stdlib-1.4.30.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/2b8019b6249bb05d81d3a3094e468753e2b21311/slf4j-api-1.7.7.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.30/bb9a3173350f55732416ee27956ea8f9b81f4dbb/kotlin-stdlib-common-1.4.30.jar;C:/Users/Emad/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
           <option name="moduleName" value="kotlin-client" />
@@ -68,6 +67,20 @@
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.7" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.4.30" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: androidx.appcompat:appcompat:1.2.0">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: androidx.core:core:1.0.7">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: io.kotlintest:kotlintest:2.0.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.mockito:mockito-core:2.7.11" level="project" />

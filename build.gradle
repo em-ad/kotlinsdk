@@ -10,20 +10,29 @@ buildscript {
     ext.kotlin_version = '1.4.30'
 
     repositories {
+        mavenCentral()
+        google()
+        jcenter()
         maven { url "https://repo1.maven.org/maven2" }
     }
     dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
 apply plugin: 'kotlin'
-
-repositories {
-    maven { url "https://repo1.maven.org/maven2" }
-}
+    repositories {
+        mavenCentral()
+        google()
+        jcenter()
+        maven { url "https://repo1.maven.org/maven2" }
+    }
 
 dependencies {
+
+    implementation "androidx.appcompat:appcompat:1.2.0"
+    implementation "androidx.core:core:1.0.7"
 
     implementation 'javax.annotation:jsr250-api:1.0'
 
